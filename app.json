@@ -6,11 +6,11 @@
   "website": "https://studio.botkit.ai/",
   "success_url":"/",
   "env": {
-      "page_token": {
-          "description": "Page Access Token provided by Facebook"
+      "access_token": {
+          "description": "Access Token provided by Cisco Spark"
       },
-      "verify_token": {
-          "description": "Webhook Verify Token, as configured in Facebook"
+      "public_address": {
+          "description": "The ssl-enabled url for this app"
       },
       "studio_token": {
           "description": "Token associated with your bot in Botkit Studio",
