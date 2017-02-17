@@ -1,8 +1,8 @@
 {
   "name": "Botkit Starter Kit",
-  "description": "A starting point for building custom Facebook applications",
-  "repository": "https://github.com/howdyai/botkit-starter-facebook",
-  "keywords": ["node", "bots", "facebook","botkit"],
+  "description": "A starting point for building custom Cisco Spark applications",
+  "repository": "https://github.com/howdyai/botkit-starter-ciscospark",
+  "keywords": ["node", "bots", "cisco spark","botkit"],
   "website": "https://studio.botkit.ai/",
   "success_url":"/",
   "env": {
