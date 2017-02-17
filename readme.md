@@ -1,4 +1,4 @@
-# Botkit Starter Kit for Facebook
+# Botkit Starter Kit for Cisco Spark
 
 This repo contains everything you need to get started building a bot with Botkit and Botkit Studio!
 
