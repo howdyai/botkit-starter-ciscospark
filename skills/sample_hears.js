@@ -28,7 +28,7 @@ module.exports = function(controller) {
     });
 
 
-    controller.hears(['^uptime','^debug'], 'message_received', function(bot, message) {
+    controller.hears(['^uptime','^debug'], 'direct_message,direct_mention', function(bot, message) {
 
         bot.createConversation(message, function(err, convo) {
             if (!err) {
@@ -43,7 +43,7 @@ module.exports = function(controller) {
 
     });
 
-    controller.hears(['^say (.*)','^say'], 'message_received', function(bot, message) {
+    controller.hears(['^say (.*)','^say'], 'direct_message,direct_mention', function(bot, message) {
         if (message.match[1]) {
 
             if (!wordfilter.blacklisted(message.match[1])) {
