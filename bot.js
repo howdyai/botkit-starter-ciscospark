@@ -17,6 +17,9 @@ This is a sample Cisco Spark bot built with Botkit.
 
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+var env = require('node-env-file');
+env(__dirname + '/.env');
+
 
 if (!process.env.access_token) {
     console.log('Error: Specify a Cisco Spark access_token in environment.');
