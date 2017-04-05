@@ -1,7 +1,7 @@
 {
-  "name": "botkit-studio-starter",
+  "name": "botkit-starter-ciscospark",
   "version": "0.0.1",
-  "description": "A starter kit for building a custom bot with Botkit Studio",
+  "description": "A starter kit for building a custom Cisco Spark bot with Botkit Studio",
   "main": "bot.js",
   "scripts": {
     "start": "node bot.js"
@@ -19,16 +19,16 @@
   "devDependencies": {},
   "repository": {
     "type": "git",
-    "url": "https://github.com/howdyai/botkit-studio-starter.git"
+    "url": "https://github.com/howdyai/botkit-starter-ciscospark.git"
   },
   "bugs": {
-    "url": "https://github.com/howdyai/botkit-studio-starter/issues"
+    "url": "https://github.com/howdyai/botkit-starter-ciscospark/issues"
   },
-  "homepage": "https://github.com/howdyai/botkit-studio-starter",
+  "homepage": "https://github.com/howdyai/botkit-starter-ciscospark",
   "keywords": [
     "bots",
     "chatbots",
-    "slack"
+    "Cisco Spark"
   ],
   "author": "ben@howdy.ai",
   "license": "ISC"
