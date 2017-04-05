@@ -11,7 +11,7 @@ While Botkit Studio is *not required* to build a bot using Botkit, we highly rec
 
 ### Instant Start
 
-[Remix this project on Glitch](https://glitch.com/edit/#!/project/botkit-ciscospark)
+[Remix this project on Glitch](https://glitch.com/edit/#!/import/github/howdyai/botkit-starter-ciscospark)
 
 [Deploy to Heroku](https://heroku.com/deploy?template=https://github.com/howdyai/botkit-starter-ciscospark/master)
 
@@ -29,17 +29,19 @@ cd botkit-starter-ciscospark
 npm install
 ```
 
-Get a Cisco Spark access tokens [as described here](https://github.com/howdyai/botkit/blob/master/readme-ciscospark.md#getting-started)
+Get a Cisco Spark access tokens [as described here](https://github.com/howdyai/botkit/blob/master/docs/readme-ciscospark.md#getting-started)
 
 Get a Botkit Studio token [from your Botkit developer account](https://studio.botkit.ai/)
 
-Run your bot from the command line with your new tokens:
+Update the `.env` file with your newly acquired tokens.
 
-`access_token=<access token> public_address=<https://mybotapp> studio_token=<botkit studio token> node .`
+Launch your bot application by typing:
+
+`node .`
 
 Cisco Spark requires your application be available at an SSL-enabled endpoint. To expose an endpoint during development, we recommend using [localtunnel.me](http://localtunnel.me) or [ngrok](http://ngrok.io), either of which can be used to temporarily expose your bot to the internet. Once stable and published to the real internet, use nginx or another web server to provide an SSL-powered front end to your bot application.
 
-Continue your journey to becoming a champion botmaster by [reading the Botkit Studio SDK documentation here.](https://github.com/howdyai/botkit/readme-studio.md)
+Continue your journey to becoming a champion botmaster by [reading the Botkit Studio SDK documentation here.](https://github.com/howdyai/botkit/docs/readme-studio.md)
 
 ### Extend This Bot
 
