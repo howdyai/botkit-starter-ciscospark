@@ -30,7 +30,6 @@ module.exports = function(controller) {
                 name: webhook_name,
             }).then(function(res) {
                 debug('Cisco Spark: SUCCESSFULLY UPDATED CISCO SPARK WEBHOOKS');
-                if (cb) cb();
             }).catch(function(err) {
                 debug('FAILED TO REGISTER WEBHOOK', err);
                 throw new Error(err);
