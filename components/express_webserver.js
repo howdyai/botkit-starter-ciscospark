@@ -7,7 +7,9 @@ module.exports = function(controller, bot) {
 
 
     var webserver = express();
-    webserver.use(bodyParser.json());
+    webserver.use(bodyParser.json({verify: function(req, res, buf, encoding) {
+        req.rawBody = buf.toString();
+    }}));
     webserver.use(bodyParser.urlencoded({ extended: true }));
 
     // import express middlewares that are present in /components/express_middleware
