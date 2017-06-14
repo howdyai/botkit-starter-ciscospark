@@ -10,10 +10,29 @@ Our goal with Botkit is to make bot building easy, fun, and accessible to anyone
 
 If you are looking to create a bot on other platforms using Glitch, check out the [Botkit project page](https://glitch.com/botkit).
 
+## Getting Started
+There are a myriad of methods you can use to set up an application on Facebook, but we feel this is the most flexible path you can use to setup your bot for [Cisco Spark](https://github.com/howdyai/botkit/blob/master/docs/readme-ciscospark.md):
+
+
 ### Use Botkit Studio
 [Botkit Studio](https://studio.botkit.ai/signup?code=ciscoglitch) is a set of tools that adds capabilities to the open source Botkit library by offering hosted GUI interfaces for script management and action trigger definition. 
 
 While Botkit Studio is *not required* to build a bot using Botkit, we highly recommend it as your bot will be easier to manage, customize and extend.
+
+#### Set up your Cisco Spark Application 
+Once you have remixed this project, the next thing you will want to do is set up a new Cisco Spark application via the [Cisco Spark developer portal](https://developer.ciscospark.com/). This is a multi-step process, but only takes a few minutes. 
+
+[Read this step-by-step guide](https://github.com/howdyai/botkit/blob/master/docs/provisioning/cisco-spark.md) to make sure everything is set up. 
+
+Next, get a Botkit Studio token [from your Botkit developer account](https://studio.botkit.ai/) if you have decided to use Studio. 
+
+Update the `.env` file in the Glitch project with your newly acquired tokens. If you have created this project from Studio, all your tokens have been entered in your `.env` already for you!
+
+Once all your tokens have been entered, your `Show Live` button should become green. Click this button and you will see an option to add this bot to your team.
+
+Once successfully logged in, your bot will connect to Cisco Spark AND Botkit Studio and leap into action! 
+
+Now comes the fun part of [making your bot!](https://github.com/howdyai/botkit/blob/master/docs/readme.md#basic-usage)
 
 # Developer & Support Community
 
