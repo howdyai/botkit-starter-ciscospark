@@ -18,6 +18,8 @@ While Botkit Studio is *not required* to build a bot using Botkit, we highly rec
 
 ### Getting Started
 
+There are a few steps to get started on working on a Botkit bot:
+
 #### Installing Botkit
 
 [Remix this project on Glitch](https://glitch.com/edit/#!/import/github/howdyai/botkit-starter-ciscospark)
@@ -34,7 +36,6 @@ Install dependencies, including [Botkit](https://github.com/howdyai/botkit):
 cd botkit-starter-ciscospark
 npm install
 ```
-
 
 #### Set up your Cisco Spark Application 
 Once you have setup your Botkit developer enviroment, the next thing you will want to do is set up a new Cisco Spark application via the [Cisco Spark developer portal](https://developer.ciscospark.com/). This is a multi-step process, but only takes a few minutes. 
@@ -54,7 +55,7 @@ Cisco Spark requires your application be available at an SSL-enabled endpoint. T
 Now comes the fun part of [making your bot!](https://github.com/howdyai/botkit/blob/master/docs/readme.md#basic-usage)
 
 
-### Extend This Remix
+### Extend This Starter Kit
 
 This starter kit is designed to provide developers a robust starting point for building a custom bot. Included in the code are a set of sample bot "skills" that illustrate various aspects of the Botkit SDK features.  Once you are familiar with how Botkit works, you may safely delete all of the files in the `skills/` subfolder.
 
