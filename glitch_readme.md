@@ -43,7 +43,7 @@ You can find full documentation for Botkit on our [GitHub page](https://github.c
 
 * Join our thriving community of Botkit developers and bot enthusiasts at large. Over 4500 members strong, [our open Slack group](http://community.botkit.ai) is _the place_ for people interested in the art and science of making bots. 
 
-You can also find help from members of the Botkit team [in our dedicated Cisco Spark room](https://eurl.io/#SyNZuomKx)!
+* You can also find help from members of the Botkit team [in our dedicated Cisco Spark room](https://eurl.io/#SyNZuomKx)!
 
 
  Come to ask questions, share your progress, and commune with your peers!
