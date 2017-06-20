@@ -104,6 +104,6 @@ You can also find help from members of the Botkit team [in our dedicated Cisco S
  [Full video of our 2016 event is available on Youtube.](https://www.youtube.com/playlist?list=PLD3JNfKLDs7WsEHSal2cfwG0Fex7A6aok)
 
 
-# About Botkit
+# About Botkit 
 
 Botkit is a product of [Howdy](https://howdy.ai) and made in Austin, TX with the help of a worldwide community of botheads.
