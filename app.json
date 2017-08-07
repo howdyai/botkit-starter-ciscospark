@@ -12,6 +12,9 @@
       "public_address": {
           "description": "The ssl-enabled url for this app"
       },
+      "secret": {
+          "description": "A shared secret used to validate incoming messages from Cisco Spark"
+      },
       "studio_token": {
           "description": "Token associated with your bot in Botkit Studio",
           "required": false
