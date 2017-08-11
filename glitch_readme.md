@@ -13,6 +13,14 @@ If you are looking to create a bot on other platforms using Glitch, check out th
 ## Getting Started
 There are a myriad of methods you can use to set up an application on Facebook, but we feel this is the most flexible path you can use to setup your bot for [Cisco Spark](https://github.com/howdyai/botkit/blob/master/docs/readme-ciscospark.md):
 
+### What's Included
+* [Botkit core](https://github.com/howdyai/botkit/blob/master/docs/readme.md#developing-with-botkit) - a complete programming system for building conversational software
+* [Botkit Studio API](https://github.com/howdyai/botkit/blob/master/docs/readme-studio.md#function-index) - additional APIs that extend Botkit with powerful tools and APIs
+* [Pre-configured Express.js webserver](https://expressjs.com/) including:
+   * A customizable "Install my Bot" homepage
+   * Webhook endpoints for communicating with platforms
+* Sample skill modules that demonstrate various features of Botkit
+* A component that manages your app's webhook subscriptions
 
 ### Use Botkit Studio
 [Botkit Studio](https://studio.botkit.ai/signup?code=ciscoglitch) is a set of tools that adds capabilities to the open source Botkit library by offering hosted GUI interfaces for script management and action trigger definition. 
