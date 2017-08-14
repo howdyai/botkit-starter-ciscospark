@@ -30,7 +30,7 @@ There are a few steps to get started on working on a Botkit bot:
 
 #### Installing Botkit
 
-[Remix this project on Glitch](https://glitch.com/edit/#!/import/github/howdyai/botkit-starter-ciscospark)
+[Remix this project on Glitch](https://glitch.com/~botkit-ciscospark)
 
 [Deploy to Heroku](https://heroku.com/deploy?template=https://github.com/howdyai/botkit-starter-ciscospark/master)
 
