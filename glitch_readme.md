@@ -1,6 +1,6 @@
-# HEY BOT BUILDER!!!
-# When you see "Show Live" in the upper left corner, your new bot app is live!
-# Click the sunglasses to view your app, then go back to [Botkit Studio](https://studio.botkit.ai) to finish up!
+# Howdy, bot builder!
+## When you see "Show Live" in the upper left corner, your new bot app is live.
+## Click the sunglasses to view your app, then go back to [Botkit Studio](https://studio.botkit.ai) to finish up.
 
 ### Having trouble?
 * You should check [that your .env file](?path=.env:1:0) has all the correct tokens as created in your [provisioning step](https://github.com/howdyai/botkit/blob/master/docs/provisioning/).
