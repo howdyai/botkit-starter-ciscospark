@@ -55,6 +55,9 @@ var webserver = require(__dirname + '/components/express_webserver.js')(controll
 // Tell Cisco Spark to start sending events to this application
 require(__dirname + '/components/subscribe_events.js')(controller);
 
+// Load in some helpers that make running Botkit on Glitch.com better
+require(__dirname + '/components/plugin_glitch.js')(controller);
+
 // Enable Dashbot.io plugin
 require(__dirname + '/components/plugin_dashbot.js')(controller);
 
