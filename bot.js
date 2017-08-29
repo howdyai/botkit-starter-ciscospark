@@ -39,6 +39,7 @@ var debug = require('debug')('botkit:main');
 // Create the Botkit controller, which controls all instances of the bot.
 var controller = Botkit.sparkbot({
     // debug: true,
+    // disable_startup_messages: true,
     // limit_to_domain: ['mycompany.com'],
     // limit_to_org: 'my_cisco_org_id',
     public_address: process.env.public_address,
