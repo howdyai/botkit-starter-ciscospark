@@ -7,7 +7,7 @@ module.exports = function(webserver, controller) {
 
         // NOTE: we should enforce the token check here
 
-        // respond to Slack that the webhook has been received.
+        // respond to Spark that the webhook has been received.
         res.status(200);
         res.send('ok');
 
