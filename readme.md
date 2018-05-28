@@ -1,6 +1,6 @@
 # Botkit Starter Kit for Cisco Spark Bots
 
-This repo contains everything you need to get started building a Cisco Spark bot with [Botkit](https://botkit.ai) and [Botkit Studio](https://botkit.ai).
+This repo contains everything you need to get started building a Cisco Spark bot with [Botkit](https://botkit.ai) and [Botkit Studio](https://studio.botkit.ai/signup?code=ciscoglitch).
 
 Botkit is designed to ease the process of designing and running useful, creative bots that live inside messaging platforms. Bots are applications that can send and receive messages, and in many cases, appear alongside their human counterparts as users.
 
@@ -10,7 +10,7 @@ Our goal with Botkit is to make bot building easy, fun, and accessible to anyone
 
 If you are looking to create a bot on other platforms using Glitch, check out the [Botkit project page](https://glitch.com/botkit).
 
-#### Use Botkit Studio
+#### Use Botkit 
 [Botkit Studio](https://studio.botkit.ai/signup?code=ciscoglitch) is a set of tools that adds capabilities to the open source Botkit library by offering hosted GUI interfaces for script management and action trigger definition. 
 
 While Botkit Studio is *not required* to build a bot using Botkit, we highly recommend it as your bot will be easier to manage, customize and extend.
