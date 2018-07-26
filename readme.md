@@ -24,7 +24,7 @@ There are a few steps to get started on working on a Botkit bot:
 
 #### Installing Botkit
 
-[Remix this project on Glitch](https://glitch.com/~botkit-ciscospark)
+[Remix this project on Glitch](https://glitch.com/~botkit-cisco-webex-teams)
 
 [Deploy to Heroku](https://heroku.com/deploy?template=https://github.com/howdyai/botkit-starter-ciscospark/master)
 
